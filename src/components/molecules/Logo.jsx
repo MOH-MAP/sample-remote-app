@@ -24,7 +24,7 @@ export const LinkWrapper = styled.a`
 export const Logo = ({ redirectionPath, titleInfo, mobilesrcfile, tabletsrcfile, desktopsrcfile }) => {
   return (
     <LogoHeadingWrapper>
-      <LinkWrapper href={redirectionPath} title={titleInfo}>
+      <LinkWrapper href={redirectionPath} title={titleInfo} rel="noreferrer">
         <Image mobilesrcfile={mobilesrcfile} tabletsrcfile={tabletsrcfile} desktopsrcfile={desktopsrcfile}/>
       </LinkWrapper>
     </LogoHeadingWrapper>
